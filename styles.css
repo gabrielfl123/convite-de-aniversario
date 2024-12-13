@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e2660d; 
-    background: url(pipas-voando-sem-costura-padrao-vetorial-fundo-infinito-de-criancas-de-verao_508097-135.avif);
+   background-image: url(imagens/pipas-voando-sem-costura-padrao-vetorial-fundo-infinito-de-criancas-de-verao_508097-135.avif);
     background-attachment: fixed;
 }
 
