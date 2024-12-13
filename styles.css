@@ -1,25 +1,22 @@
 body {
-    
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e2660d; 
     background: url(pipas-voando-sem-costura-padrao-vetorial-fundo-infinito-de-criancas-de-verao_508097-135.avif);
     background-attachment: fixed;
-    
-    
 }
 
 .convite-container {
     text-align: center;
     padding: 30px;
     background-color: #ffffff;
-    border-radius: 100px;
+    border-radius: 10px;
     max-width: 600px;
     margin: 50px auto;
     border: 5px solid yellow; 
+    box-sizing: border-box;
 }
-
 
 .convite-header {
     margin-bottom: 20px;
@@ -38,7 +35,6 @@ h1 {
     font-size: 2.2rem;
     color: blue; 
     margin-top: 10px;
-    
 }
 
 h2.presentes {
@@ -56,7 +52,7 @@ h2.presentes {
     font-size: 1rem;
     margin-top: 15px;
     transition: background-color 0.3s;
-    width: auto; /
+    width: auto;
 }
 
 .presentes button:hover {
@@ -80,7 +76,7 @@ h2.presentes {
 }
 
 #lista-presentes li:hover {
-    background-color: #0a60ea; /* Azul mais suave */
+    background-color: #0a60ea; 
 }
 
 #lista-presentes li::after {
@@ -108,7 +104,7 @@ h2.presentes {
 }
 
 .btn-confirmar {
-    background-color: #f80808a6; /* Amarelo suave */
+    background-color: #f80808a6; 
     color: #333;
     padding: 30px 50px;
     border: none;
@@ -117,17 +113,72 @@ h2.presentes {
     font-size: 1rem;
     margin-top: 30px;
     transition: background-color 0.9s;
-    width: auto; /* Botão com largura ajustada */
-
+    width: auto;
 }
 
 .btn-confirmar:hover {
-    background-color: #f12409; /* Amarelo mais suave */
+    background-color: #f12409; 
 }
 
-
-.convite-footer{
+.convite-footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
-    
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .convite-container {
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+    }
+
+    .foto-aniversariante {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2.presentes {
+        font-size: 0.9rem;
+    }
+
+    .presentes button {
+        font-size: 0.9rem;
+        padding: 4px 8px;
+    }
+
+    #lista-presentes li {
+        font-size: 1rem;
+        padding: 6px;
+    }
+
+    .btn-confirmar {
+        font-size: 0.9rem;
+        padding: 20px 30px;
+    }
+
+    .convite-footer {
+        font-size: 1.2rem;
+    }
+}
+
+/* Para dispositivos muito pequenos, como celulares em modo retrato */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .foto-aniversariante {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn-confirmar {
+        font-size: 0.8rem;
+        padding: 15px 25px;
+    }
 }
