@@ -1,0 +1,133 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2660d; 
+    background: url(pipas-voando-sem-costura-padrao-vetorial-fundo-infinito-de-criancas-de-verao_508097-135.avif);
+    background-attachment: fixed;
+    
+    
+}
+
+.convite-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    max-width: 600px;
+    margin: 50px auto;
+    border: 5px solid yellow; 
+}
+
+
+.convite-header {
+    margin-bottom: 20px;
+}
+
+.foto-aniversariante {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(253, 220, 3); 
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2rem;
+    color: blue; 
+    margin-top: 10px;
+    
+}
+
+h2.presentes {
+    color: black; 
+    font-size: 1rem;
+}
+
+.presentes button {
+    background-color: rgba(246, 238, 7, 0.978); 
+    color: #ffffff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    width: auto; /
+}
+
+.presentes button:hover {
+    background-color: #061ef3; 
+}
+
+#lista-presentes {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#lista-presentes li {
+    margin: 12px 0;
+    background-color: #f0f8ff; 
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#lista-presentes li:hover {
+    background-color: #0a60ea; /* Azul mais suave */
+}
+
+#lista-presentes li::after {
+    content: "😊";
+}
+
+#lista-presentes li:nth-child(1)::after {
+    content: "👕";
+}
+
+#lista-presentes li:nth-child(2)::after {
+    content: "👟";
+}
+
+#lista-presentes li:nth-child(3)::after {
+    content: "🔊";
+}
+
+#lista-presentes li:nth-child(4)::after {
+    content: "🚗";
+}
+
+#lista-presentes li:nth-child(5)::after {
+    content: "⚽";
+}
+
+.btn-confirmar {
+    background-color: #f80808a6; /* Amarelo suave */
+    color: #333;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 30px;
+    transition: background-color 0.9s;
+    width: auto; /* Botão com largura ajustada */
+
+}
+
+.btn-confirmar:hover {
+    background-color: #f12409; /* Amarelo mais suave */
+}
+
+
+.convite-footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.0.0/dist/index.bundle.js" defer></script> 
+</head>
+<body>
+
+    
+    <audio id="musica-fundo" autoplay loop>
+        <source src="PARABÉNS DA GALINHA PINTADINHA - Clipe Música Oficial - Galinha Pintadinha 4.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <div class="convite-container">
+        <header class="convite-header">
+            <img src="Imagem do WhatsApp de 2024-12-13 à(s) 10.17.18_3e9bc01d.jpg" class="foto-aniversariante" alt="Foto do aniversariante">
+            <h1><strong>Você está convidado!</strong></h1>
+            <p><strong>Venha brincar e comemorar meus 2 aninhos junto comigo</strong></p>
+        </header>
+
+        <main class="convite-main">
+            <div class="detalhes">
+                <p><strong>Data:</strong> 22/01/2025</p>
+                <p><strong>Hora:</strong> 19:30</p>
+                <p><strong>Local:</strong> Av. Francisco Delfino dos Santos, N° 691 <br>
+                Jardim Paulistano</p>
+            </div>
+
+            <section class="presentes">
+                <button onclick="mostrarPresentes()"> 
+                    <h2 class="presentes">Caso queira me presentear...</h2>
+                </button>
+                <ul id="lista-presentes" style="display: none;">
+                    <li>Eu visto roupas - Tamanho 4</li>
+                    <li>Meus pezinhos são números 23 e 24</li>
+                    <li>Gosto de brinquedos barulhentos</li>
+                    <li>Gosto de carrinhos</li>
+                    <li>Gosto de brincar de bola</li>
+                </ul>
+            </section>
+
+            <button class="btn-confirmar" onclick="confirmarPresenca()"><strong>Confirmar presença</strong></button>
+        </main>
+
+        <footer class="convite-footer">
+            <p><strong>Esperamos por você! </strong>🥳</p>
+        </footer>
+    </div>
+
+    <div>
+        
+    </div>
+    <script src="scripts.js" defer></script> 
+
+
+</body>
+</html>
